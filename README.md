@@ -8,6 +8,8 @@ My first bash script to monitor PDU consumption on list of linux machines.
 
 ###More Settings & Info:
 * In my case i checked up to 4 PDU's you can change the number you want by editing line 8.
+* The PDUs have been accessed using network interfaces (machine_name-pdu) if you work with something else, please
+make sure to change line 11
 
 ## Output:
 Each PDU consumption and  the total of all of them. 
