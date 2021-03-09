@@ -2,7 +2,7 @@
 
 #run every 10 minutes
 DELAY=600
-######function that checks power cunsuming for each pdu######
+######function that checks power consumption for each pdu######
 function get_machine_pdu_consum
 {
 for i in 1 2 3 4; do
